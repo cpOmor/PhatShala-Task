@@ -12,7 +12,14 @@ import { useResendVerificationCodeMutation } from "../redux/api/auth/resendVerif
 import { useAppDispatch } from "../redux/features/hooks";
 import { TUser, setUser } from "../redux/api/auth/authSlice";
 import { verifyToken } from "../lib/utils/verifyToken";
-
+/**
+ * SignIn component allows users to log in to the application.
+ * It includes a form for entering email and password, handles form submission,
+ * validates input, and manages user authentication.
+ * It also provides functionality to resend verification codes if the user is not verified.
+ * It also provides functionality to resend verification codes if the user is not verified.
+ * It also provides functionality to resend verification codes if the user is not verified.
+ */
 interface FormValues {
   firstName: string;
   lastName: string;
