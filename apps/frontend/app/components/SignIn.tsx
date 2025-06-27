@@ -17,6 +17,8 @@ import { verifyToken } from "../lib/utils/verifyToken";
  * It includes a form for entering email and password, handles form submission,
  * validates input, and manages user authentication.
  * It also provides functionality to resend verification codes if the user is not verified.
+ * It also provides functionality to resend verification codes if the user is not verified.
+ * It also provides functionality to resend verification codes if the user is not verified.
  */
 interface FormValues {
   firstName: string;
